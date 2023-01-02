@@ -68,8 +68,10 @@ figure #image1 {
 }
 
 .video-section {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
+
 .video-section iframe {
   margin: 20px auto;
   display: block;
