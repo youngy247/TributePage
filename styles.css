@@ -1,4 +1,5 @@
 /* Copy and paste your CSS from CodePen into here */
+
 body {
   background-color: beige;
   color: black;
@@ -29,21 +30,22 @@ header {
   border-color: black;
 }
 
-header #title {
-  color: black;
-
-  font-size: 50px;
-}
 header p {
   font-size: 20px;
   text-align: center;
+}
+
+#title {
+  color: black;
+
+  font-size: 50px;
 }
 
 figure {
   display: grid;
 }
 
-figure #image {
+figure #image1 {
   background-color: black;
   max-width: 100%;
   height: auto;
