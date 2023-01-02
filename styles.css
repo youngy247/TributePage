@@ -77,6 +77,10 @@ figure #image1 {
   border-radius: 5px;
 }
 
+#career ul {
+  list-style: none;
+}
+
 footer {
   font-size: 14px;
 }
