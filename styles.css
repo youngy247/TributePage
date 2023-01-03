@@ -78,10 +78,16 @@ figure #image1 {
   border-radius: 5px;
 }
 
+#career {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
 #career ul {
   list-style: none;
 }
 
 footer {
-  font-size: 14px;
+  font-size: 15px;
 }
