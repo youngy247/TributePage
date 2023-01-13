@@ -8,6 +8,7 @@ body {
   text-align: center;
   color: #333;
   line-height: 1.5;
+  font-family: sans-serif;
 }
 
 main {
@@ -60,9 +61,9 @@ figure #image1 {
 
 #tribute-info {
   font-size: 17.5px;
-  padding: 30px;
-  margin-left: 12%;
-  margin-right: 12%;
+  padding: 27px;
+  margin-left: 11%;
+  margin-right: 11%;
 }
 
 
@@ -72,11 +73,17 @@ figure #image1 {
 #career {
   display: flex;
   justify-content: center;
+  
   gap: 100px;
+}
+
+#career h2 {
+margin-left: 8.2%;
 }
 
 #career ul {
   list-style: none;
+  justify-content: cente;
 }
 
 footer {
@@ -88,10 +95,11 @@ footer {
     display: flex;
     gap: 10px;
     justify-content: space-around;
+    
   }
   .video-section iframe {
-    margin: 20px auto;
-    width: 52vh;
+    margin: 20px 0;
+    width: 45vh;
     
     border: 3px solid white;
     border-radius: 5px;
