@@ -109,8 +109,15 @@ footer {
   }
 }
 
-@media (max-width: 52em) {
+@media (max-width: 51.99em) {
   .video-section {
+    display: block;
     gap: 0;
   }
+  .video-section iframe {
+    width: auto;
+}
+.video-section h2 {
+  font-size: 1.3rem;
+}
 }
